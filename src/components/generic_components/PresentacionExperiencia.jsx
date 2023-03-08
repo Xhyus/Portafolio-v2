@@ -9,8 +9,8 @@ const PresentacionExperiencia = ({ periodo, empresa, detalle, experiencia, nombr
                 <Text fontSize="lg" fontWeight="bold" >{periodo}</Text>
             </Stack>
             <Stack align="flex-start"  >
-                <Text fontSize="2xl" >{detalle}</Text>
-                <Text fontSize="2xl" fontWeight="light">{experiencia}</Text>
+                <Text fontSize={{ base: "md", md: "xl" }} >{detalle}</Text>
+                <Text fontSize={{ base: "md", md: "xl" }} fontWeight="light">{experiencia}</Text>
                 {referencia && <Referencias nombre={nombre} telefono={telefono} correo={correo} />}
             </Stack>
         </Stack>

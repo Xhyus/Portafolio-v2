@@ -5,7 +5,7 @@ import PresentacionExperiencia from './generic_components/PresentacionExperienci
 
 const Experiencia = () => {
     return (
-        <Stack justify={"center"} my={10} w={'full'} id={"Experiencias"}>
+        <Stack justify={"center"} py={10} w={'full'} id={"Experiencias"}>
             <SubTitulo type="h2" size="2xl" data="EXPERIENCIAS" />
             {experiencias.map((experiencia, index) => {
                 return (

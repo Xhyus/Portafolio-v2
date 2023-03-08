@@ -7,7 +7,7 @@ const Proyectos = () => {
     return (
         <>
             <SubTitulo data="PROYECTOS" size="2xl" type="h2" />
-            <HStack w={'full'} h={"full"} mt={5} justify={"center"}>
+            <HStack w={'full'} h={"full"} py={5} justify={"center"}>
                 <Wrap spacing={10} justify={"center"}>
                     {proyectos.map((proyecto, index) => {
                         return (

@@ -6,7 +6,7 @@ import Icono from './generic_components/Icono'
 
 const SobreMi = () => {
     return (
-        <Stack w="full" >
+        <Stack w="full" py={5} >
             <Wrap justify="space-between" align="flex-start">
                 <WrapItem>
                     <Box bgColor="black" p={3} w="fit-content">
@@ -35,7 +35,7 @@ const SobreMi = () => {
             <SubTitulo type="h2" size="2xl" data="¿QUIÉN SOY?" />
             <Stack textAlign={'justify'}>
                 {sobre_mi.map((data, key) => {
-                    return <Text color="black" fontSize="xl" key={key}>{data}</Text>
+                    return <Text color="black" fontSize={{ base: "md", md: "xl" }} key={key}>{data}</Text>
                 })}
             </Stack>
         </Stack >

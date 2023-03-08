@@ -16,8 +16,8 @@ export const proyectos = [
             "GitHub",
             "Visual Studio Code",
         ],
-        "repositorio": "https://github.com/Xhyus/portfolio",
-        "url": "https://www.ignaciogonzalez.dev"
+        "repositorio": "https://github.com/Xhyus/Portafolio/tree/v1",
+        "url": "https://portafolio-rfd7zcvd7-xhyus.vercel.app/"
     },
     {
         "imagen": authapp,
