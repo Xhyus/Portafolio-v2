@@ -7,7 +7,7 @@ export const proyectos = [
     {
         "imagen": portafolio,
         "descripcion": "Portafolio personal desarrollado con React y ChakraUI. Se desarrollo con el fin de presentar todas las tecnologías que he aprendido y que he utilizado en mis proyectos",
-        "titulo": "Portafolio",
+        "titulo": "Portafolio ~ V1",
         "tecnologias": [
             "React",
             "ChakraUI",
