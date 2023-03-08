@@ -16,7 +16,6 @@ const Experiencia = () => {
                         detalle={experiencia.descripcion}
                         experiencia={experiencia.experiencia}
                         nombre={experiencia.nombre}
-                        telefono={experiencia.telefono}
                         correo={experiencia.correo}
                         referencia={experiencia.referencia}
                     />

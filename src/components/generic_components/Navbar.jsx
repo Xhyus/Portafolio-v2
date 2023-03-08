@@ -13,10 +13,9 @@ const Navbar = () => {
             <Flex backgroundColor={"blackAlpha.900"} verticalAlign={"center"} p={5} justify="space-between">
                 <Text fontSize="xl" color="white" fontWeight="bold">Ignacio González</Text>
                 <HStack>
-                    <LinkButton href="#SobreMi" tag="Sobre Mí" />
+                    <LinkButton href="#QuienSoy" tag="¿Quíen Soy?" />
                     <LinkButton href="#Conocimientos" tag="Conocimientos" />
                     <LinkButton href="#Experiencias" tag="Experiencias" />
-                    <LinkButton href="#Educacion" tag="Educación" />
                     <LinkButton href="#Proyectos" tag="Proyectos" />
                 </HStack>
             </Flex>
@@ -41,10 +40,9 @@ const Navbar = () => {
                             </DrawerHeader>
                             <DrawerBody>
                                 <Stack>
-                                    <LinkButton href="#SobreMi" tag="Sobre Mí" />
+                                    <LinkButton href="#QuienSoy" tag="¿Quíen Soy?" />
                                     <LinkButton href="#Conocimientos" tag="Conocimientos" />
                                     <LinkButton href="#Experiencias" tag="Experiencias" />
-                                    <LinkButton href="#Educacion" tag="Educación" />
                                     <LinkButton href="#Proyectos" tag="Proyectos" />
                                 </Stack>
                             </DrawerBody>

@@ -6,7 +6,7 @@ import Icono from './generic_components/Icono'
 
 const SobreMi = () => {
     return (
-        <Stack w="full" py={5} >
+        <Stack w="full" py={5} id="QuienSoy">
             <Wrap justify="space-between" align="flex-start">
                 <WrapItem>
                     <Box bgColor="black" p={3} w="fit-content">

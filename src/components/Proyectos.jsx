@@ -1,11 +1,11 @@
-import { HStack, WrapItem, Wrap } from '@chakra-ui/react'
+import { HStack, WrapItem, Wrap,Stack } from '@chakra-ui/react'
 import { proyectos } from '../static/proyectos'
 import Card from './generic_components/Card'
 import SubTitulo from './generic_components/SubTitulo'
 
 const Proyectos = () => {
     return (
-        <>
+        <Stack id="Proyectos">
             <SubTitulo data="PROYECTOS" size="2xl" type="h2" />
             <HStack w={'full'} h={"full"} py={5} justify={"center"}>
                 <Wrap spacing={10} justify={"center"}>
@@ -18,7 +18,7 @@ const Proyectos = () => {
                     })}
                 </Wrap>
             </HStack>
-        </>
+        </Stack>
     )
 }
 
