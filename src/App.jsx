@@ -1,5 +1,5 @@
 import { Container } from '@chakra-ui/react'
-import Navbar from './components/Navbar'
+import Navbar from './components/generic_components/Navbar'
 import Conocimientos from './components/Conocimientos'
 import Experiencia from './components/Experiencia'
 import SobreMi from './components/SobreMi'
