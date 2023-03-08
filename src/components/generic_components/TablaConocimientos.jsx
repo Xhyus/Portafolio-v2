@@ -7,9 +7,9 @@ const TablaConocimientos = ({ header, tecnologias }) => {
         <Stack border="1px solid black" w="fit-content" borderRadius={12}>
             <Text fontSize="xl" borderBottom="1px solid black" p={2} textAlign="center" fontWeight="semibold" >{header}</Text>
             <Wrap justify="center" spacing={5} py="2" px="3">
-                {tecnologias.map((tecnologia) => {
+                {tecnologias.map((tecnologia, index) => {
                     return (
-                        <GridItem w={"fit-content"} >
+                        <GridItem w={"fit-content"} key={index} >
                             <Link href={tecnologia.documentacion} isExternal>
                                 <TagIcon icono={tecnologia.icono} tag={tecnologia.tecnologia} color={tecnologia.color} />
                             </Link>
