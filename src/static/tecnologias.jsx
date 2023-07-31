@@ -1,149 +1,217 @@
-import { FaReact, FaNodeJs, FaGitAlt, FaPhp, FaCss3, FaHtml5, FaGithub, FaBootstrap, FaJava } from 'react-icons/fa'
-import { SiNextdotjs, SiExpress, SiMongodb, SiMysql, SiChakraui, SiJavascript, SiPostgresql, SiInsomnia, SiVisualstudiocode, SiDjango, SiJest,SiPostman } from 'react-icons/si'
-import { TbBrandReactNative, TbBrandTypescript  } from 'react-icons/tb'
+import {
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaPhp,
+  FaCss3,
+  FaHtml5,
+  FaGithub,
+  FaBootstrap,
+  FaJava,
+} from "react-icons/fa";
+import {
+  SiNextdotjs,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiChakraui,
+  SiJavascript,
+  SiPostgresql,
+  SiInsomnia,
+  SiVisualstudiocode,
+  SiDjango,
+  SiJest,
+  SiPostman,
+  SiOracle,
+  SiGitlab,
+  SiDocker,
+  SiVitest,
+  SiMongoose,
+} from "react-icons/si";
+import { TbBrandReactNative, TbBrandTypescript } from "react-icons/tb";
 
-export const frontend = [{
+export const frontend = [
+  {
     icono: FaReact,
     tecnologia: "ReactJS",
     color: "blue.500",
-    documentacion: "https://es.reactjs.org/docs/getting-started.html"
-},
-{
+    documentacion: "https://es.reactjs.org/docs/getting-started.html",
+  },
+  {
     icono: SiNextdotjs,
     tecnologia: "Next.Js",
     color: "white",
-    documentacion: "https://nextjs.org/docs"
-},
-{
+    documentacion: "https://nextjs.org/docs",
+  },
+  {
     icono: TbBrandReactNative,
     tecnologia: "React Native",
     color: "purple.500",
-    documentacion: "https://reactnative.dev/docs/next/components-and-apis"
-},
-{
+    documentacion: "https://reactnative.dev/docs/next/components-and-apis",
+  },
+  {
     icono: SiChakraui,
     tecnologia: "Chakra UI",
     color: "teal.500",
-    documentacion: "https://chakra-ui.com/docs/getting-started"
-},
-{
+    documentacion: "https://chakra-ui.com/docs/getting-started",
+  },
+  {
     icono: FaHtml5,
     tecnologia: "HTML",
     color: "orange.500",
-    documentacion: "https://developer.mozilla.org/es/docs/Web/HTML"
-},
-{
+    documentacion: "https://developer.mozilla.org/es/docs/Web/HTML",
+  },
+  {
     icono: FaCss3,
     tecnologia: "CSS",
     color: "blue.500",
-    documentacion: "https://developer.mozilla.org/es/docs/Web/CSS"
-},
-{
+    documentacion: "https://developer.mozilla.org/es/docs/Web/CSS",
+  },
+  {
     icono: FaBootstrap,
     tecnologia: "Bootstrap",
     color: "purple.400",
-    documentacion: "https://bootstrap.com/v4/docs/"
-}]
+    documentacion: "https://bootstrap.com/v4/docs/",
+  },
+];
 
-export const backend = [{
+export const backend = [
+  {
     icono: SiExpress,
     tecnologia: "ExpressJS",
     color: "red.500",
-    documentacion: "https://expressjs.com/es/api.html"
-},
-{
+    documentacion: "https://expressjs.com/es/api.html",
+  },
+  {
     icono: FaNodeJs,
     tecnologia: "NodeJS",
     color: "green.500",
-    documentacion: "https://nodejs.org/dist/latest-v16.x/docs/api/"
-},
-{
+    documentacion: "https://nodejs.org/dist/latest-v16.x/docs/api/",
+  },
+  {
     icono: SiDjango,
     tecnologia: "Django",
     color: "green.500",
-    documentacion: "https://docs.djangoproject.com/en/3.2/"
-},
-{
+    documentacion: "https://docs.djangoproject.com/en/3.2/",
+  },
+  {
     icono: SiJest,
     tecnologia: "Jest",
     color: "red.500",
-    documentacion: "https://jestjs.io/docs/getting-started"
-}
-]
+    documentacion: "https://jestjs.io/docs/getting-started",
+  },
+  {
+    icono: SiVitest,
+    tecnologia: "Vitest",
+    color: "blue.500",
+    documentacion: "https://vitejs.dev/guide/",
+  },
+  {
+    icono: SiMongoose,
+    tecnologia: "Mongoose",
+    color: "red.700",
+    documentacion: "https://mongoosejs.com/docs/api.html",
+  },
+];
 
-export const herramientas = [{
+export const herramientas = [
+  {
     icono: FaGithub,
     tecnologia: "Github",
     color: "white",
-    documentacion: "https://docs.github.com/es"
-},
-{
+    documentacion: "https://docs.github.com/es",
+  },
+  {
     icono: FaGitAlt,
     tecnologia: "Git",
     color: "red.500",
-    documentacion: "https://git-scm.com/docs"
-},
-{
+    documentacion: "https://git-scm.com/docs",
+  },
+  {
     icono: SiInsomnia,
     tecnologia: "Insomnia REST",
     color: "purple.500",
-    documentacion: "https://support.insomnia.rest/"
-},
-{
+    documentacion: "https://support.insomnia.rest/",
+  },
+  {
     icono: SiVisualstudiocode,
     tecnologia: "Visual Studio Code",
     color: "blue.500",
-    documentacion: "https://code.visualstudio.com/docs"
-},
-{
+    documentacion: "https://code.visualstudio.com/docs",
+  },
+  {
     icono: SiPostman,
     tecnologia: "Postman",
     color: "orange.500",
-    documentacion: "https://learning.postman.com/docs/getting-started/introduction/"
-}
-]
+    documentacion:
+      "https://learning.postman.com/docs/getting-started/introduction/",
+  },
+  {
+    icono: SiGitlab,
+    tecnologia: "Gitlab",
+    color: "orange.500",
+    documentacion: "https://docs.gitlab.com/ee/user/",
+  },
+  {
+    icono: SiDocker,
+    tecnologia: "Docker",
+    color: "blue.500",
+    documentacion: "https://docs.docker.com/",
+  },
+];
 
-export const lenguajes = [{
+export const lenguajes = [
+  {
     icono: FaPhp,
     tecnologia: "PHP",
     color: "white",
-    documentacion: "https://www.php.net/docs.php"
-},
-{
+    documentacion: "https://www.php.net/docs.php",
+  },
+  {
     icono: SiJavascript,
     tecnologia: "Javascript",
     color: "yellow.400",
-    documentacion: "https://devdocs.io/javascript/"
-},
-{
+    documentacion: "https://devdocs.io/javascript/",
+  },
+  {
     icono: FaJava,
     tecnologia: "Java",
     color: "red.500",
-    documentacion: "https://docs.oracle.com/en/java/javase/16/docs/api/index.html"
-},
-{
+    documentacion:
+      "https://docs.oracle.com/en/java/javase/16/docs/api/index.html",
+  },
+  {
     icono: TbBrandTypescript,
     tecnologia: "Typescript",
     color: "blue.500",
-    documentacion: "https://www.typescriptlang.org/docs/"
-}
-]
+    documentacion: "https://www.typescriptlang.org/docs/",
+  },
+];
 
-export const base_datos = [{
+export const base_datos = [
+  {
     icono: SiPostgresql,
     tecnologia: "PostgresSQL",
     color: "blue.500",
-    documentacion: "https://www.postgresql.org/docs/"
-},
-{
+    documentacion: "https://www.postgresql.org/docs/",
+  },
+  {
     icono: SiMysql,
     tecnologia: "MySQL",
-    color: "blue.500",
-    documentacion: "https://dev.mysql.com/doc/"
-},
-{
+    color: "yellow.400",
+    documentacion: "https://dev.mysql.com/doc/",
+  },
+  {
     icono: SiMongodb,
     tecnologia: "MongoDB",
     color: "green.500",
-    documentacion: "https://docs.mongodb.com/"
-}]
+    documentacion: "https://docs.mongodb.com/",
+  },
+  {
+    icono: SiOracle,
+    tecnologia: "OracleSQL",
+    color: "red.500",
+    documentacion:
+      "https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/index.html",
+  },
+];

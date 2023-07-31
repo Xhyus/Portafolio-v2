@@ -1,9 +1,10 @@
-import { Container } from '@chakra-ui/react'
-import Navbar from './components/generic_components/Navbar'
-import Conocimientos from './components/Conocimientos'
-import Experiencia from './components/Experiencia'
-import SobreMi from './components/SobreMi'
-import Proyectos from './components/Proyectos'
+import { Container } from "@chakra-ui/react";
+import Navbar from "./components/generic_components/Navbar";
+import Conocimientos from "./components/Conocimientos";
+import Experiencia from "./components/Experiencia";
+import SobreMi from "./components/SobreMi";
+import Proyectos from "./components/Proyectos";
+import GoUp from "./components/generic_components/GoUp";
 
 const App = () => {
   return (
@@ -14,9 +15,10 @@ const App = () => {
         <Conocimientos />
         <Experiencia />
         <Proyectos />
-      </Container >
+        <GoUp />
+      </Container>
     </>
-  )
-}
+  );
+};
 
 export default App;
